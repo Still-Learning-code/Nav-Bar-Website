@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  </head>
+  <body>
+    
+    <section>
+    <div class="m-4 text-center bg-warning">
+    <div class="btn-group">
+      <button type="button" class="btn btn-outline-secondary"><i class="bi-diamond" style="font-size: 30px"></i></button>
+        <button type="button" class="btn btn-outline-secondary">Home</button>
+        <button type="button" class="btn btn-outline-secondary ">About</button>
+        <button type="button" class="btn btn-outline-secondary">Services</button>
+      <button type="button" class="btn btn-outline-secondary">Contact</button>
+    </div>
+</div>
+    </section>
+    
+   <div> 
+    <div class="container-fluid my-4">
+      <div class="p-5 mb-4 bg-primary border-rounded">
+        <div class="m-4">
+    <div class="card bg-secondary" style="width: auto; height: 160px;">
+      <span class="bi-triangle-fill" style="font-size: 64px"></span>
+      <aside class="bi-triangle-fill" style="font-size: 48px"></aside>
+      <p> 2 Triangles working</p>
+      <p> together for U</p>
+      </div>
+      </div>
+    </div>
+     </div>
+    </div>
+    <section>
+    <h5>Header: Working for U</h5>
+      <div>To grow Your Business</div> 
+    </section>
+    <article>
+      <h3>Services</h3>
+      <div>Morbi sed fermentum ipsum. Morbi a orci vulputate tortor ornare blandit a quis orci. Donec aliquam sodales gravida. In ut ullamcorper nisi, ac pretium velit.</div>
+    </article>
+       <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2023 Your Company</div>        
+    </div>
+      
+    
+    
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+CSS
+span {
+  position: fixed;
+  color: goldenrod;
+  top:250px;
+  left:260px;
+}
+aside {
+  position: fixed;
+  color: green;
+  top:270px;
+  right:240px;
+}
+p {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  top: 50px; 
+}
+h5,div{
+  text-align: center;
+}
+h3,div {
+  text-align: center;
+  
+}
+article {
+  border-width: 4px;
+  border-style: solid;
+  background-color: gray;
+}
+fixed-footer{
+  bottom: 0;
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
